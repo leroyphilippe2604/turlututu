@@ -6,9 +6,9 @@ _Moi_.
 
 ## Qu'est-ce que c'est ?
 
-Ceci est le premier projet que j'ai du réaliser.
+Ceci est le premier projet que j'ai dû réaliser.
 
-Project réalisé uniquement en **HTML** et **CSS**
+Projet réalisé uniquement en **HTML** et **CSS**
 
 ## Quand as tu bossé dessus ?
 
@@ -18,13 +18,13 @@ Il y a 6 mois.
 
 J'étais en début de formation chez Becode.
 
-## A quoi cela ressemble-t-il ?
+## À quoi cela ressemble-t-il ?
 
 Voici un lien si vous voulez voir : _https://leroyphilippe2604.github.io/turlututu/_
 
 ## D'où vient ce projet ?
 
-Ce projet viens après **quelques semaines** d'apprentissage.
+Ce projet vient après **quelques semaines** d'apprentissage.
 
 ## Un dernier mot ?
 
