@@ -1,149 +1,159 @@
-body{
-	font-family:font-family: 'Oswald', sans-serif;
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
 }
-header{
-	width: 100%;
-	background-color:black;
-	min-height: 70px;
+header {
+  width: 100%;
+  background-color: black;
+  min-height: 70px;
 }
-.logo{
-	float: left;
-	padding-top: 5px;
+.logo {
+  float: left;
+  padding-top: 5px;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
 }
 
 ul {
- padding:0;
- margin:0;
- list-style-type:none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-top: 15px;
 }
 li {
- margin-left:2px;
- float:left;
+  margin-left: 2px;
+  float: left;
 }
 ul li a {
- display:inline-block;
- float:left;   
- width:100px;
- background-color:black;
- color:black;
- text-decoration:none;
- text-align:center;
+  display: inline-block;
+  width: 100px;
+  background-color: black;
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
 
-a:link{
-	color: white;
-	text-decoration: none;
+a:link {
+  color: white;
+  text-decoration: none;
 }
-a:visited{
-	color: white;
+a:visited {
+  color: white;
 }
-a:hover{
-	color: red;
+a:hover {
+  color: red;
 }
-#login{ 
-	float: right;
-	position: absolute;
-	right: 58px;
-	top: 10px;
-
+#login {
+  float: right;
+  position: absolute;
+  right: 58px;
+  top: 10px;
 }
-h2{
-	display: flex;
-	justify-content: center;
-	align-content: center;
-
+h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.back{
-	float: left;
+.back {
+  float: left;
 }
 
-.couleur{
-	background-color: #3b8ed8;
-	font-size: 28px;
-	min-height: 350px;
-	text-align: center;
-	padding-left:100px;
-	padding-top: 100px;
+.couleur {
+  background-color: #3b8ed8;
+  font-size: 28px;
+  min-height: 350px;
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 100px;
 }
 
-.bouton{
-	background-color: orange;
-	color: white;
-	padding: 10px;
-	border-radius: 8px;
-	border: white 3px solid;
+.bouton {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: white 3px solid;
 }
-.inter{
-	background-color: white
-	color: black;
-	font-size: 22px;
-	text-align: center;
+.inter {
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  text-align: center;
 }
-.mid{
-	background-color: #3b8ed8;
-	min-height: 350px;
-}	
-h3{
-	color: white;
+.mid {
+  background-color: #3b8ed8;
+  min-height: 350px;
 }
-.container{
-	padding: 3rem 0;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
-
+h3 {
+  color: white;
 }
-.item{
-	padding: 3rem;
-	letter-spacing: 2px;
-	font-size: 1rem;
-	color: white;
+.container {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
-.inter{
-	text-align: center;
-	color: grey;
-	line-height: 340%;
+.item {
+  padding: 3rem;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  color: white;
 }
-#sponsor{
-	background-color: #caccce;
-	min-height: 350px;
-	align-content: center;
-	padding-right: 8px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.inter {
+  text-align: center;
+  color: grey;
+  line-height: 340%;
 }
-.sponsor{
-	padding: 50px;
-	display: flex;
-	flex-wrap: wrap;
-	width: 10%;
-	content: 230rem;
+#sponsor {
+  background-color: #caccce;
+  min-height: 350px;
+  align-content: center;
+  padding-right: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.bouton-bleu{
-	background-color: blue;
-	color: white;
-	padding: 10px;
-	border-radius: 8px;
-	display: inline-block;
-	align-items: center;
-}
-#start2{
-	background-color: orange;
-	color: white;
-	padding: 10px;
-	border-radius: 8px;
-	display: inline-block;
+.sponsor {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+  content: 230rem;
 }
 
-
-
-.footer{
-	width: 250%;
-	background-color:black;
-	min-height: 70px;
-	display: inline-block;
+#bouton {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.footer-copyright{
-	color: white;
-	float: right;
+
+.bouton-bleu {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+#start2 {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
 }
